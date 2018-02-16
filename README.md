@@ -5,16 +5,17 @@ Generates certificates based on .tex files
 
 You'll need a few complimentary files:
 
-- nomes Which contains the list of names to whom you're making this certifactes
-- YME's logo Which is already provied
+- nomes - Which contains the list of names to whom you're making this certifactes
+- YME's logo - Which is already provided 
 - The backgroung - One is given as example
-- YME's current president signature
+- YME's current president signature - ask for it
 - The logo of the event - INSIDE's logo is provided as example
 
 
 ## Running
 
-Just do
+Check if file names match with the ones hardcoded in the .tex file.
+Just run
 
 ```sh certs.sh```
 
