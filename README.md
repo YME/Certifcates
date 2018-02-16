@@ -14,4 +14,10 @@ You'll need a few complimentary files:
 
 ## Running
 
-Just do ```sh certs.sh```
+Just do
+
+```sh certs.sh```
+
+## Bugs
+
+- Need to generate the certs 2 times.

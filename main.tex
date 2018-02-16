@@ -1,0 +1,81 @@
+
+\documentclass{article}
+\usepackage[absolute]{textpos}
+\setlength{\TPHorizModule}{30mm}
+\setlength{\TPVertModule}{\TPHorizModule}
+\textblockorigin{10mm}{10mm}
+\setlength{\parindent}{0pt}
+\usepackage[landscape]{geometry}
+\usepackage[absolute]{textpos}
+\thispagestyle{empty}
+\usepackage[utf8]{inputenc}
+\usepackage{scrextend}
+\usepackage{graphicx,lipsum}
+\changefontsizes[20pt]{16pt}
+\usepackage{eso-pic}
+\usepackage{float}
+\usepackage{background}
+\usepackage{anyfontsize}
+
+
+
+\begin{document}
+
+\begin{textblock}{20}(4,-0.075)
+\begin{figure}
+    \includegraphics{enterprises}
+\end{figure}
+\end{textblock}
+
+\begin{textblock}{10}(-0.3,0)
+\begin{figure}
+    \includegraphics{inside}
+\end{figure}
+\end{textblock}
+
+\begin{textblock}{10}(-0.1,1.5)
+\begin{figure}
+    \includegraphics{logotransp}
+\end{figure}
+\end{textblock}
+
+\begin{textblock}{20}(4.5,4.85)
+\begin{figure}
+    \includegraphics{Assinatura_helder.png}
+\end{figure}
+\end{textblock}
+
+
+\backgroundsetup{
+scale=1,
+angle=0,
+opacity=0.2,
+contents={\includegraphics[width=\paperwidth,height=800]{fundo1}}
+}
+
+\begin{textblock}{7}(1.85,1.75)
+\LARGE \center
+   Certifica-se que VAR_NAME
+
+   participou na atividade Inside FACTORY, organizada pela
+
+   Young Minho Enterprise, júnior empresa da
+
+      Universidade do Minho no dia 7 de Fevereiro de 2018,
+
+   pelas 17 horas nas instalações da empresa Factory.
+\end{textblock}
+
+\begin{textblock}{2}(4.5,4.5)
+O Presidente da YME
+\end{textblock}
+
+\begin{textblock}{20}(3.8,5.35)
+\line(90,0){10cm}
+\end{textblock}
+
+\begin{textblock}{2}(4.55,5.5)
+\huge Hélder Ferreira
+\end{textblock}
+
+\end{document}
